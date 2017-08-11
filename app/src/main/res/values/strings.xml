@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">RefurbishedAppleChecker</string>
+    <string name="app_name">Apple Refurbished Checker</string>
+    <string name="ipod_touch">iPod Touch</string>
+    <string name="ipad">iPad</string>
+    <string name="mac">Mac</string>
+    <string name="clearance">Clearance</string>
+    <string name="iphone">iPhone</string>
+    <string name="syouhyou">iPod and iPad, Mac, iPhone are registered trademarks of Apple Inc.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
