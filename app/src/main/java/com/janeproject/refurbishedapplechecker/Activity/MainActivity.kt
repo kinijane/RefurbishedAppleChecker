@@ -1,13 +1,13 @@
 package com.janeproject.refurbishedapplechecker.Activity
 
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.app.FragmentActivity
 import android.widget.FrameLayout
 import com.janeproject.refurbishedapplechecker.Fragment.TopFragment
 import com.janeproject.refurbishedapplechecker.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : FragmentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

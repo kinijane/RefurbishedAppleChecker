@@ -29,8 +29,7 @@ class TopFragment : Fragment() {
     }
 
     fun initLogic(){
-        mTopLogic = TopLogic(activity)
-
+        mTopLogic = TopLogic(activity.baseContext)
 
     }
 
