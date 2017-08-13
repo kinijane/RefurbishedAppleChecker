@@ -1,78 +1,71 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.janeproject.refurbishedapplechecker.Fragment.TopFragment">
-
-    <LinearLayout
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:title="@string/app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <android.support.v7.widget.Toolbar
-            style="@style/AppTheme"
-            android:id="@+id/toolbar"
-            android:title="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"/>
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/toolbarTheme"
+        android:visibility="visible"
+        app:popupTheme="@style/Theme.AppCompat.Light"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <include layout="@layout/parts_button"
-                android:id="@+id/ipod_touch_button"/>
+                <include layout="@layout/parts_button"
+                    android:id="@+id/ipod_touch_button"/>
 
-            <FrameLayout
-                android:layout_width="50dp"
-                android:layout_height="match_parent"/>
+                <include layout="@layout/parts_button"
+                    android:id="@+id/ipad_button"/>
 
-            <include layout="@layout/parts_button"
-                android:id="@+id/ipad_button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <include layout="@layout/parts_button"
+                    android:id="@+id/mac_button"/>
+
+                <include layout="@layout/parts_button"
+                    android:id="@+id/clearance_button"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iphone_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <include layout="@layout/parts_button"
+                    android:id="@+id/iphone_button"/>
+
+                <include layout="@layout/parts_button"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <include layout="@layout/parts_button"
-                android:id="@+id/mac_button"/>
-
-            <FrameLayout
-                android:layout_width="50dp"
-                android:layout_height="match_parent"/>
-
-            <include layout="@layout/parts_button"
-                android:id="@+id/clearance_button"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/iphone_row"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <include layout="@layout/parts_button"
-                android:id="@+id/iphone_button"/>
-
-            <FrameLayout
-                android:layout_width="50dp"
-                android:layout_height="match_parent"/>
-
-            <include layout="@layout/parts_button"
-                android:visibility="invisible"/>
-
-        </LinearLayout>
-
-
-
-    </LinearLayout>
-
-</ScrollView>
+    </ScrollView>
+</LinearLayout>
