@@ -39,6 +39,8 @@ class TopFragment : Fragment() {
      * ビュー生成
      */
     fun initView(){
+        toolbar.setTitle(R.string.app_name)
+        toolbar.setTitleTextColor(R.color.black)
         ipod_touch_button.buttonImage.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ipod_touch))
         ipod_touch_button.buttonText.setText(R.string.ipod_touch)
         ipad_button.buttonImage.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ipad))
