@@ -3,7 +3,7 @@
     <!-- iPodTouchURL -->
     <string name="ipod_touch_url">https://www.apple.com/%1$sshop/browse/home/specialdeals/ipod</string>
     <!-- iPadUrl -->
-    <string name="ipad_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/ipod</string>
+    <string name="ipad_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/ipad</string>
     <!-- MacUrl -->
     <string name="mac_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/mac</string>
     <!-- clearanceUrl -->
