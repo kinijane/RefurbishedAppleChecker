@@ -7,4 +7,7 @@
     <string name="iphone">iPhone</string>
     <string name="syouhyou">iPod and iPad, Mac, iPhone are registered trademarks of Apple Inc.</string>
 
+    <string name="github">github</string>
+    <string name="google_play">Google Play</string>
+
 </resources>
