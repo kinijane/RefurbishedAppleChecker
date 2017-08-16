@@ -1,13 +1,28 @@
 <resources>
     <string name="app_name">Apple Refurbished Checker</string>
-    <string name="ipod_touch">iPod Touch</string>
-    <string name="ipad">iPad</string>
-    <string name="mac">Mac</string>
-    <string name="clearance">Clearance</string>
-    <string name="iphone">iPhone</string>
-    <string name="syouhyou">iPod and iPad, Mac, iPhone are registered trademarks of Apple Inc.</string>
+    <string name="ipod_touch" translatable="false">iPod Touch</string>
+    <string name="ipad" translatable="false">iPad</string>
+    <string name="mac" translatable="false">Mac</string>
+    <string name="clearance" translatable="false">Clearance</string>
+    <string name="iphone" translatable="false">iPhone</string>
+    <string name="syouhyou">* iPod and iPad, Mac, iPhone are registered trademarks of Apple Inc.</string>
 
-    <string name="github">github</string>
-    <string name="google_play">Google Play</string>
+    <string name="github" translatable="false">github</string>
+    <string name="google_play" translatable="false">Google Play</string>
+
+    <string name="credit" translatable="false">
+        Copyright 2017
+        Jane Project
+        \n\n
+        Special thanks \n
+        (Image) Mirko Monti\n
+        https://dribbble.com/monz
+    </string>
+
+    <string name="about" translatable="false">
+        Apple Refurbished Checker is freeware\n
+        and Open Source Project. I published sources in GitHub.\n
+        If you love this app, Would you like to use my app in Google Play too?\n
+    </string>
 
 </resources>

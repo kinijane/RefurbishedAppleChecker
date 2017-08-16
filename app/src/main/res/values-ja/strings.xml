@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">整備済Apple製品チェッカー</string>
-    <string name="syouhyou">iPod と iPad, Mac, iPhone は、米国および他の国々で登録されたApple Inc.の商標です。</string>
+    <string name="syouhyou">* iPod と iPad, Mac, iPhone は、米国および他の国々で登録されたApple Inc.の商標です。</string>
 
 
 </resources>

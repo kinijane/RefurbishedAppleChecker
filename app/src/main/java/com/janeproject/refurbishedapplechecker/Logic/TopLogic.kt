@@ -20,7 +20,6 @@ class TopLogic (context : Context){
         ProductName.MAC -> mContext.getString(R.string.mac_url, getCountryUrlParts())
         ProductName.CLEARANCE -> mContext.getString(R.string.clearance_url, getCountryUrlParts())
         ProductName.IPHONE -> mContext.getString(R.string.iphone_url, getCountryUrlParts())
-        else -> throw Exception("Other Product!!")
     }
 
     /**

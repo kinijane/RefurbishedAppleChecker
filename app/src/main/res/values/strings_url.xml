@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- iPodTouchURL -->
-    <string name="ipod_touch_url">https://www.apple.com/%1$sshop/browse/home/specialdeals/ipod</string>
+    <string name="ipod_touch_url" translatable="false">https://www.apple.com/%1$sshop/browse/home/specialdeals/ipod</string>
     <!-- iPadUrl -->
-    <string name="ipad_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/ipad</string>
+    <string name="ipad_url" translatable="false">https://www.apple.com/%1$s/shop/browse/home/specialdeals/ipad</string>
     <!-- MacUrl -->
-    <string name="mac_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/mac</string>
+    <string name="mac_url" translatable="false">https://www.apple.com/%1$s/shop/browse/home/specialdeals/mac</string>
     <!-- clearanceUrl -->
-    <string name="clearance_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/clearance</string>
+    <string name="clearance_url" translatable="false">https://www.apple.com/%1$s/shop/browse/home/specialdeals/clearance</string>
     <!-- iPhoneURL -->
-    <string name="iphone_url">https://www.apple.com/%1$s/shop/browse/home/specialdeals/iphone</string>
+    <string name="iphone_url" translatable="false">https://www.apple.com/%1$s/shop/browse/home/specialdeals/iphone</string>
+    <!-- google play url -->
+    <string name="my_google_play_url" translatable="false">https://play.google.com/store/apps/dev?id=7643730886773373332</string>
+    <!-- github url -->
+    <string name="github_url" translatable="false">https://github.com/kinijane/RefurbishedAppleChecker</string>
 
 </resources>
