@@ -70,7 +70,7 @@ class TopFragment : Fragment() {
      * ツールバーの初期処理
      */
     fun initToolbar(){
-        var submenu:SubMenu = toolbar.menu.addSubMenu(Menu.NONE, 0,0,getString(R.string.about))
+        var submenu:SubMenu = toolbar.menu.addSubMenu(Menu.NONE, 0,0,"about")
         submenu.setIcon(R.mipmap.ic_help_black_24dp)
         toolbar.menu.getItem(0).setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
         toolbar.setOnMenuItemClickListener { menuItem ->
